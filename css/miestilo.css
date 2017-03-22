@@ -1,0 +1,53 @@
+/****************
+    Mi pagina
+****************/
+
+header {text-align: center;
+ background-image:url(http://www.uksoftech.com/wp-content/uploads/2016/02/website-design-background.png); background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+    margin: 40px 0px 0px 40px;
+    border: 7px solid black
+}
+
+h1{ font-size: 70px}
+
+ul{padding: 10px;
+background: black}
+
+li{display: inline;
+   padding: 0px 10px 0px 10px; }
+
+a{text-decoration: none;
+color: white}
+
+
+
+/****************
+pagina principal articulos
+****************/
+
+article{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+
+
+/**************
+responsive desing
+***************/
+
+@media (max-width:500px){
+    h1{font-size: 36px;}
+    
+    li{
+        display:block;
+        padding: 5px;
+        
+        
+    }
+}
